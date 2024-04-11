@@ -31,8 +31,6 @@ mkfs ext4 /dev/sda2
 <down>
 dd if=/dev/random of=/dev/sda0
 >file
-git clone https://github.com/ooni/probe
->file
 git clone https://github.com/ytisf/theZoo
 >file 
 git clone https://github com/Tsunami512/ShapeWatch
@@ -74,6 +72,8 @@ sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 lu
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2d
 >file
 umount
+>file
+git clone https://github.com/ooni/probe
 >file
 
 <^>
