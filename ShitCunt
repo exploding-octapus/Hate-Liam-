@@ -9,7 +9,7 @@ mkfs ext4 /dev/sda3. 2b
 mkfs ext4 /dev/sda3. 2c
 mkfs.ext4 /dev/sda3. 2d
 >file
-dd if=/dev/random of=/dev/sda
+dd if=/dev/random of=/dev/sda0
 dd if=/dev/random of=/dev/sda3. 2a
 >file 
 dd if=/dev/random of=/dev/sda3. 2b
