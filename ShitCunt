@@ -24,6 +24,11 @@ dd if=/dev/random of=/dev/sda3. 2d
 <down>
 <down>
 >file
+git clone https://github.com/ooni/probe
+>file
+git clone https://github.com/ytisf/theZoo
+>file 
+git clone https://github com/Tsunami512/ShapeWatch
 >file
 <down>
 <down>
@@ -47,7 +52,6 @@ sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 lu
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2c
 >file
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2d
-
 >file
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2a
 >file
@@ -60,7 +64,6 @@ sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 lu
 <down>
 <down>
 >file
-
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2a
 >file
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2b
@@ -68,12 +71,6 @@ sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 lu
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2c
 >file
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2d
->file
-git clone https://github.com/ooni/probe
->file
-git clone https://github.com/ytisf/theZoo
->file 
-git clone https://github com/Tsunami512/ShapeWatch
 >file
 umount
 >file
