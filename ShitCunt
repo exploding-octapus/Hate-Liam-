@@ -71,9 +71,8 @@ sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 lu
 >file
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2d
 >file
-umount
->file
 git clone https://github.com/ooni/probe
 >file
-
+umount
+>file
 <^>
