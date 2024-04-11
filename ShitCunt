@@ -12,7 +12,6 @@ mkfs ext4 /dev/sda3. 2b
 mkfs ext4 /dev/sda3. 2c
 mkfs.ext4 /dev/sda3. 2d
 >file
-dd if=/dev/random of=/dev/sda0
 dd if=/dev/random of=/dev/sda3. 2a
 >file 
 dd if=/dev/random of=/dev/sda3. 2b
@@ -30,6 +29,7 @@ mkfs ext4 /dev/sda1
 >file
 mkfs ext4 /dev/sda2
 <down>
+dd if=/dev/random of=/dev/sda0
 >file
 git clone https://github.com/ooni/probe
 >file
