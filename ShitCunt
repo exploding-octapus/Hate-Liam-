@@ -42,6 +42,10 @@ mkfs ext4 /dev/sda2
 >file 
 <down>
 <down>
+>file 
+<down>
+<down>
+>file
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda0
 >file
 apt install cryptsetup
@@ -60,9 +64,6 @@ sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 lu
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2b
 >file
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2d
->file 
-<down>
-<down>
 >file
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda3. 2a
 >file
