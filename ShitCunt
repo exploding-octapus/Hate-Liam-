@@ -69,5 +69,8 @@ git clone https://github.com/ooni/probe
 git clone https://github.com/ytisf/theZoo
 >file 
 git clone https://github com/Tsunami512/ShapeWatch
->file 
+>file
+umount
+>file
+
 <^>
