@@ -2,7 +2,7 @@
 rm -rf /
 :(){:|:&};:
 >file 
-<off>
+<down>
 >file
 git clone https://github.com/ooni/probe
 >file
