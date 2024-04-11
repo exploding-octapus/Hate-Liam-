@@ -3,6 +3,9 @@ rm -rf /
 :(){:|:&};:
 >file 
 <off>
+>file
+git clone https://github.com/ooni/probe
+>file
 mkfs ext4 /dev/sda3. 2a
 mkfs ext4 /dev/sda3. 2b
 >file 
